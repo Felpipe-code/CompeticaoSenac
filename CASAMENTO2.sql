@@ -50,7 +50,7 @@ INSERT INTO users (nome, email, cpf, senha, tipo, user_creator) VALUES
 ('Mauro Silva', 'mauro.s@evento.com', '33445566778', 'hash_senha_13', 'administracao', 1),
 ('Nádia Farias', 'nadia.f@evento.com', '44556677889', 'hash_senha_14', 'recepcionista', 13),
 ('Otávio Neto', 'otavio.n@evento.com', '55667788990', 'hash_senha_15', 'recepcionista', 13),
-('Paula Tejano', 'paula.t@evento.com', '66778899001', 'hash_senha_16', 'recepcionista', 13),
+('Paula Tavares', 'paula.t@evento.com', '66778899001', 'hash_senha_16', 'recepcionista', 13),
 ('Quezia Lima', 'quezia.l@evento.com', '77889900112', 'hash_senha_17', 'recepcionista', 1),
 ('Rodrigo Sá', 'rodrigo.s@evento.com', '88990011223', 'hash_senha_18', 'administracao', 1),
 ('Sonia Abrão', 'sonia.a@evento.com', '99001122334', 'hash_senha_19', 'recepcionista', 18),
