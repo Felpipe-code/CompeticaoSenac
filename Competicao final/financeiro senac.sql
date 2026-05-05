@@ -29,6 +29,8 @@ create table dividas(
   lancamento_dia timestamp DEFAULT current_timestamp,
   modificacao_dia timestamp DEFAULT current_timestamp on update current_timestamp,
   pagamento_verificacao enum('pago','pendente') default 'pendente'
+  FOREIGN KEY (id_cliente) REFERENCES cliente(id),
+  FOREIGN KEY (id_usuario) REFERENCES usuarios(id)
 );
 
 INSERT INTO clientes (nome, cpf, email, cargo) VALUES
